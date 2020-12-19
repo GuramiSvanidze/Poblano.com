@@ -107,6 +107,7 @@ const btnDiv = document.querySelector('.btn-container');
 window.addEventListener('DOMContentLoaded', function () {
   displayMenuItems(menu);
   displayMenuButtons();
+  animationFunc();
 });
 
 
@@ -180,3 +181,15 @@ function displayMenuButtons () {
      });
 
 }
+
+
+
+//small animation - opacity
+ function animationFunc() {
+
+    const anim = gsap.timeline({defaults: {ease: 'power1.out'} });
+    anim.to(".txt", {y: '0%', duration: 1 });
+    anim.fromTo(".p-text", {opacity: 0}, {opacity: 1, duration: 2}, '-1.2s');
+    anim.fromTo(".for-anim", {opacity: 0}, {opacity: 1, duration: 1}, '-1s');
+
+ }

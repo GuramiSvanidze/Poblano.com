@@ -184,7 +184,7 @@ function displayMenuButtons () {
 
 
 
-//small animation - opacity
+//small animation
  function animationFunc() {
 
     const anim = gsap.timeline({defaults: {ease: 'power1.out'} });

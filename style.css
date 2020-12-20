@@ -347,7 +347,6 @@ html{
 
 
     .story{
-      height: 80vh;
       width: 100%;
       background: rgb(244, 247, 229);
       display: flex;
@@ -369,7 +368,6 @@ html{
 
     .paralax{
       background: url('images/chef.jpg') center/cover no-repeat;
-      height: 404px;
       
     }
 
@@ -453,23 +451,23 @@ html{
   
 
     @media (max-width: 1300px) {
-        .story{
-          height: 100vh;
-        }
-
       .arrow{
         display: flex;
         flex-direction: column;
-        width: 40%;
+        width: 50%;
       }
       .paralax{
-        height: 900px;
+        height: 600px;
+        width: 100%;
         
       }
       .text-paralax{
         font-size: 15px;
         line-height: 30px;
       }
+
+
+
 
       .footer{
         height: 15vh;
@@ -495,13 +493,18 @@ html{
     }
 
 
-    @media (max-width: 600px) {
-      .story{
-        height: 120vh;
+    @media (max-width: 850px) {
+      .paralax{
+        height: 300px;
+        width: 100%;
+        
       }
+    }
+     
 
+    @media (max-width: 600px) {
       .arrow{
-        width: 60%;
+        width: 70%;
       }
 
     }
@@ -509,18 +512,23 @@ html{
 
     @media (max-width: 400px) {
       .left-info ul li a{
-        font-size: 15px;
+        font-size: 13px;
+        padding: 5px;
       }
 
       .right-info a, .right-info p{
-        font-size: 15px;
+        font-size: 13px;
+        padding: 7px;
       }
-      .arrow{
-        width: 70%;
-      }
+
       .story p{
         font-size: 0.8rem;
       }
+
+      .arrow{
+        width: 80%;
+      }
+
 
     }
 

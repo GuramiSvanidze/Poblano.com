@@ -82,7 +82,7 @@ html{
    align-items: center;
    justify-content: center;
    z-index: 4;
-   transform: translateY(170%);
+   transform: translateY(-150%);
    position: absolute;
    transition: .3s ease-in-out;
    

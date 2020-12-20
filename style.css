@@ -389,11 +389,11 @@ html{
 
 
     .footer{
-      height: 10vh;
       width: 100%;
       background: rgb(197, 193, 133);
       display: flex;
       justify-content: space-between;
+      padding: 15px 0;
     }
 
     .left-info{
@@ -409,7 +409,7 @@ html{
 
 
     .left-info ul li a{
-      padding: 10px;
+      padding: 0px 10px;
       text-decoration: none;
       color: rgb(32, 32, 32);
       font-size: 17px;
@@ -470,18 +470,18 @@ html{
 
 
       .footer{
-        height: 15vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
       }
+
       .left-info{
         padding: 0 0 8px 0;
       }
 
       .left-info ul li a{
-        padding: 8px;
+        padding: 0 8px;
       }
 
       .right-info a{
@@ -513,12 +513,12 @@ html{
     @media (max-width: 400px) {
       .left-info ul li a{
         font-size: 13px;
-        padding: 5px;
+        padding: 0 5px;
       }
 
       .right-info a, .right-info p{
         font-size: 13px;
-        padding: 7px;
+        padding: 0 7px;
       }
 
       .story p{
